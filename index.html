@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenc</title>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/all.min.css">
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="js/tailwind.config.js"></script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+</head>
+<body>
+   <!-- =================
+        Nav
+   ================== -->
+   <nav class="pt-[50px] pb-[80px]">
+       <div class="max-w-container mx-auto flex items-center px-[15px] md:px-[0]">
+           <div class="w-full md:w-1/5">
+               <picture>
+                   <img src="images/logo.png" alt="logo">
+               </picture>
+           </div>
+           <div class="hidden md:block md:w-3/5">
+               <ul class="flex justify-center gap-x-[66px] font-Inter font-normal text-lg text-pera">
+                   <li><a class="hover:text-blue" href="#">home</a></li>
+                   <li><a class="hover:text-blue" href="#">About</a></li>
+                   <li><a class="hover:text-blue" href="#">Service</a></li>
+                   <li><a class="hover:text-blue" href="#">Careers</a></li>
+                   <li><a class="hover:text-blue" href="#">Contact</a></li>
+               </ul>
+           </div>
+           <div class="menu">
+               <button><i class="fa-solid fa-bars"></i></button>
+           </div>
+           <div class="hidden md:block md:w-1/5 text-end">
+               <button class="bg-blue w-[160px] h-[56px] hover:bg-white hover:text-black hover:border-solid transition duration-500 border border-blue ease-linear hover:border hover:border-blue rounded-[10px] font-Inter font-semibold text-xl text-white">Contact</button>
+           </div>
+       </div>
+   </nav>
+
+    <!-- =================
+        Banner
+   ================== -->
+   <section>
+       <div class="px-[15px] md:px-[0] max-w-container mx-auto flex items-center">
+           <div class="w-full md:w-1/2 text-center md:text-left">
+               <h1 class="font-Inter font-bold text-[40px] md:text-[75px] leading-[130%]">We Help brands with high quality services</h1>
+               <p class="font-Inter font-normal text-base text-pera leading-[26px] md:w-[604px] pt-[20px] pb-[30px]">There are many variations of passages of Lorem Ipsum available, but themajority  have suffered alteration in some form, by injected humour, or randomised words which don't look.</p>
+               <button class="bg-blue w-[197px] h-[56px] hover:bg-white hover:text-black hover:border-solid transition duration-500 border border-blue ease-linear hover:border hover:border-blue rounded-[10px] font-Inter font-semibold text-xl text-white">Get Started</button>
+           </div>
+           <div class="w-full md:w-1/2 text-end hidden md:block">
+               <picture>
+                   <img src="images/banner.webp" alt="">
+               </picture>
+           </div>
+       </div>
+   </section>
+</body>
+</html>
